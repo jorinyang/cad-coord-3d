@@ -47,10 +47,7 @@ python app/deploy/upload_oss.py --list   # 查看线上对象
 
 ## 凭据
 
-| 用途 | 位置 |
-| --- | --- |
-| Supabase（DB / REST / 服务端写） | `~/.ClawShell/.env.supabase` |
-| OSS | `~/.ossutilconfig` |
+服务端全部经**环境变量**注入（键名见 `server/db_setup.py`）：`SUPABASE_DB_HOST / PORT / USER / PASSWORD`、`SUPABASE_URL`、`SUPABASE_PUBLISHABLE_KEY`、`SUPABASE_SERVICE_KEY`；OSS 上传脚本读取 ossutil 标准配置（`~/.ossutilconfig`）。
 
 ⚠️ 本项目 Supabase 项目必须使用**新式 key**：前端 `SUPABASE_PUBLISHABLE_KEY`（sb_publishable_*），后端 `SUPABASE_SERVICE_KEY`（sb_secret_*）。legacy JWT（eyJ…）已失效（401）。
 
