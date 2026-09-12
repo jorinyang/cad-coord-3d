@@ -5,7 +5,7 @@
 | 工作流 | answer（AI Native'S Workflower） |
 | 领域识别 | 🏢 新业务/产品（构建一个网页应用） |
 | 启动日期 | 2026-09-11 |
-| 当前阶段 | Phase 6 Build（14/16；bug 修复 + 演示图纸均已上线；DWG→DXF 转换链六层验证 ✓（含离群块视图发现）；C7b 等用户确认 Docker；P4 Review 预审完） |
+| 当前阶段 | Phase 6 Build（14/16；bug 修复 + 演示图纸 + 取景修复均已上线；DWG→DXF 六层验证 ✓；榫卯格构 647 节点图纸 ✓；项目已上传 GitHub（v0.9.0）；C7b 等用户确认 Docker；P4 Review 预审完） |
 | 版本 | v0.1 |
 
 ---

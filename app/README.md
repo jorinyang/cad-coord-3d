@@ -79,6 +79,7 @@ python app/devtools/cdp_e2e_c6.py    # 分享
 python app/devtools/verify_fix.py    # 菜单/3D 修复验证（像素级断言）
 python app/devtools/verify_online.py # 线上部署验证（gzzhike.cn）
 python app/devtools/verify_demo_frame.py local|online  # 演示图纸 3D 验证（64节点）
+python app/devtools/verify_mortise_frame.py local|online  # 榫卯格构 647 节点（含数据层度数复核）
 python app/devtools/test_dwg_pipeline.py  # DWG→DXF 转换六层验证（A-F）
 python app/devtools/check_dwg_render.py local|online  # DWG 转换图 3D 渲染检查
 python app/devtools/quality_check.py # 解析质量抽验
