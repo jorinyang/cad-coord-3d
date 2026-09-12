@@ -1,0 +1,69 @@
+{
+ "meta": {
+  "name": "test_input",
+  "source_format": "dxf",
+  "point_count": 5,
+  "link_count": 6,
+  "merge_tol": 1.414213562373095e-06,
+  "name_match_ratio": 0.01,
+  "skipped_entities": {}
+ },
+ "points": [
+  {
+   "name": "JA",
+   "x": 0.0,
+   "y": 0.0,
+   "z": 0.0
+  },
+  {
+   "name": "JB",
+   "x": 10.0,
+   "y": 0.0,
+   "z": 0.0
+  },
+  {
+   "name": "JC",
+   "x": 10.0,
+   "y": 10.0,
+   "z": 0.0
+  },
+  {
+   "name": "P0001",
+   "x": 0.0,
+   "y": 10.0,
+   "z": 0.0
+  },
+  {
+   "name": "P0002",
+   "x": 5.0,
+   "y": 5.0,
+   "z": 0.0
+  }
+ ],
+ "links": [
+  {
+   "from": "JA",
+   "to": "JB"
+  },
+  {
+   "from": "JA",
+   "to": "P0001"
+  },
+  {
+   "from": "JA",
+   "to": "P0002"
+  },
+  {
+   "from": "JB",
+   "to": "JC"
+  },
+  {
+   "from": "JB",
+   "to": "P0002"
+  },
+  {
+   "from": "JC",
+   "to": "P0001"
+  }
+ ]
+}

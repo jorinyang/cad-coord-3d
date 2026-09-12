@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CAD 图纸坐标拆解与 3D 还原 — 上传 DWG/DXF，自动提取坐标点与连接关系">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>CAD 坐标拆解</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/">CAD 坐标拆解</a>
+      <nav>
+        <a href="#/">图纸库</a>
+        <a href="#/upload">上传图纸</a>
+      </nav>
+    </div>
+  </header>
+  <main id="app"></main>
+  <script src="vendor/xlsx/xlsx.full.min.js" defer></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three/build/three.module.js",
+        "three/addons/": "./vendor/three/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

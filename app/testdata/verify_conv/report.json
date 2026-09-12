@@ -1,0 +1,230 @@
+{
+  "steps": [
+    {
+      "name": "A 转换 example_2000.dwg → example_2000.dxf",
+      "ok": true,
+      "detail": "0.6s / 1372KB"
+    },
+    {
+      "name": "B 产物有效 example_2000",
+      "ok": true,
+      "detail": "DXF=AC1032, 68 实体（LWPOLYLINE×11, INSERT×10, DIMENSION×9, LINE×8, ARC×2, SPLINE×2）"
+    },
+    {
+      "name": "C 解析 example_2000",
+      "ok": true,
+      "detail": "3846 点 / 3736 线 / 跳过 {'XLINE': 1, 'SPLINE': 2, 'ELLIPSE': 1, 'REGION': 2, 'ATTDEF': 2, 'RAY': 1, 'CIRCLE': 8, 'HATCH': 1, 'WIPEOUT': 2, '3DFACE': 2, '3DSOLID': 1, 'DIMENSION': 9, 'ARC_DIMENSION': 1, 'SOLID': 1, 'TOLERANCE': 1, 'ACAD_TABLE': 1, 'MULTILEADER': 1, 'MLINE': 1, 'LIGHT': 1}；名称样例 ['P0001', 'P0002', 'P0003']"
+    },
+    {
+      "name": "A 转换 example_2013.dwg → example_2013.dxf",
+      "ok": true,
+      "detail": "0.3s / 855KB"
+    },
+    {
+      "name": "B 产物有效 example_2013",
+      "ok": true,
+      "detail": "DXF=AC1032, 68 实体（LWPOLYLINE×11, INSERT×10, DIMENSION×9, LINE×8, ARC×2, SPLINE×2）"
+    },
+    {
+      "name": "C 解析 example_2013",
+      "ok": true,
+      "detail": "3846 点 / 3736 线 / 跳过 {'XLINE': 1, 'SPLINE': 2, 'ELLIPSE': 1, 'REGION': 2, 'ATTDEF': 2, 'RAY': 1, 'CIRCLE': 8, 'HATCH': 1, 'WIPEOUT': 2, '3DFACE': 2, '3DSOLID': 1, 'DIMENSION': 9, 'ARC_DIMENSION': 1, 'SOLID': 1, 'TOLERANCE': 1, 'ACAD_TABLE': 1, 'MULTILEADER': 1, 'MLINE': 1, 'LIGHT': 1}；名称样例 ['P0001', 'P0002', 'P0003']"
+    },
+    {
+      "name": "A 转换 example_2018.dwg → example_2018.dxf",
+      "ok": true,
+      "detail": "0.3s / 956KB"
+    },
+    {
+      "name": "B 产物有效 example_2018",
+      "ok": true,
+      "detail": "DXF=AC1032, 68 实体（LWPOLYLINE×11, INSERT×10, DIMENSION×9, LINE×8, ARC×2, SPLINE×2）"
+    },
+    {
+      "name": "C 解析 example_2018",
+      "ok": true,
+      "detail": "3846 点 / 3736 线 / 跳过 {'XLINE': 1, 'SPLINE': 2, 'ELLIPSE': 1, 'REGION': 2, 'ATTDEF': 2, 'RAY': 1, 'CIRCLE': 8, 'HATCH': 1, 'WIPEOUT': 2, '3DFACE': 2, '3DSOLID': 1, 'DIMENSION': 9, 'ARC_DIMENSION': 1, 'SOLID': 1, 'TOLERANCE': 1, 'ACAD_TABLE': 1, 'MULTILEADER': 1, 'MLINE': 1, 'LIGHT': 1}；名称样例 ['P0001', 'P0002', 'P0003']"
+    },
+    {
+      "name": "A 转换 example_r14.dwg → example_r14.dxf",
+      "ok": true,
+      "detail": "0.3s / 1019KB"
+    },
+    {
+      "name": "B 产物有效 example_r14",
+      "ok": true,
+      "detail": "DXF=AC1032, 68 实体（LWPOLYLINE×11, INSERT×10, DIMENSION×9, LINE×8, ARC×2, SPLINE×2）"
+    },
+    {
+      "name": "C 解析 example_r14",
+      "ok": true,
+      "detail": "3846 点 / 3736 线 / 跳过 {'XLINE': 1, 'SPLINE': 2, 'ELLIPSE': 1, 'REGION': 2, 'ATTDEF': 2, 'RAY': 1, 'CIRCLE': 8, 'HATCH': 1, 'WIPEOUT': 2, '3DFACE': 2, '3DSOLID': 1, 'DIMENSION': 9, 'ARC_DIMENSION': 1, 'SOLID': 1, 'TOLERANCE': 1, 'ACAD_TABLE': 1, 'MULTILEADER': 1, 'MLINE': 1, 'LIGHT': 1}；名称样例 ['P0001', 'P0002', 'P0003']"
+    },
+    {
+      "name": "D 一致性 example_2000 ≡ example_2013",
+      "ok": true,
+      "detail": "点/线/名称完全一致（3846 点 / 3736 线）"
+    },
+    {
+      "name": "D 一致性 example_2000 ≡ example_2018",
+      "ok": true,
+      "detail": "点/线/名称完全一致（3846 点 / 3736 线）"
+    },
+    {
+      "name": "D 一致性 example_2000 ≡ example_r14",
+      "ok": true,
+      "detail": "点/线/名称完全一致（3846 点 / 3736 线）"
+    },
+    {
+      "name": "E 端到端上传 DWG（R2018）",
+      "ok": true,
+      "detail": "HTTP 200，4.8s，id=07cf015e-1c0b-4da3-940e-c7b6ad7875d1，3846 点 / 3736 线"
+    },
+    {
+      "name": "E 云端复核（点/线实际行数）",
+      "ok": true,
+      "detail": "点 3846/3846，线 3736/3736"
+    },
+    {
+      "name": "F 损坏 DWG → 明确报错",
+      "ok": true,
+      "detail": "HTTP 502，0.3s，DWG 转换失败：ODA: ODA 转换未产出文件：input.dwg rc=0 。建议：在本机 CAD 中把图纸另存为 DXF 后上传。"
+    },
+    {
+      "name": "F 报错含手动转换指引",
+      "ok": true,
+      "detail": "含「另存为 DXF」指引"
+    },
+    {
+      "name": "F 不存在文件 → 明确报错",
+      "ok": true,
+      "detail": "源文件不存在：C:\\Users\\Aorus\\Desktop\\Knowledge\\Work\\Output\\cad-coord-3d\\app\\t"
+    }
+  ],
+  "converted": {
+    "example_2000": {
+      "source_bytes": 582572,
+      "dxf_bytes": 1405059,
+      "convert_secs": 0.6,
+      "entities": 68,
+      "points": 3846,
+      "links": 3736,
+      "skipped": {
+        "XLINE": 1,
+        "SPLINE": 2,
+        "ELLIPSE": 1,
+        "REGION": 2,
+        "ATTDEF": 2,
+        "RAY": 1,
+        "CIRCLE": 8,
+        "HATCH": 1,
+        "WIPEOUT": 2,
+        "3DFACE": 2,
+        "3DSOLID": 1,
+        "DIMENSION": 9,
+        "ARC_DIMENSION": 1,
+        "SOLID": 1,
+        "TOLERANCE": 1,
+        "ACAD_TABLE": 1,
+        "MULTILEADER": 1,
+        "MLINE": 1,
+        "LIGHT": 1
+      }
+    },
+    "example_2013": {
+      "source_bytes": 146906,
+      "dxf_bytes": 875022,
+      "convert_secs": 0.3,
+      "entities": 68,
+      "points": 3846,
+      "links": 3736,
+      "skipped": {
+        "XLINE": 1,
+        "SPLINE": 2,
+        "ELLIPSE": 1,
+        "REGION": 2,
+        "ATTDEF": 2,
+        "RAY": 1,
+        "CIRCLE": 8,
+        "HATCH": 1,
+        "WIPEOUT": 2,
+        "3DFACE": 2,
+        "3DSOLID": 1,
+        "DIMENSION": 9,
+        "ARC_DIMENSION": 1,
+        "SOLID": 1,
+        "TOLERANCE": 1,
+        "ACAD_TABLE": 1,
+        "MULTILEADER": 1,
+        "MLINE": 1,
+        "LIGHT": 1
+      }
+    },
+    "example_2018": {
+      "source_bytes": 149218,
+      "dxf_bytes": 978612,
+      "convert_secs": 0.3,
+      "entities": 68,
+      "points": 3846,
+      "links": 3736,
+      "skipped": {
+        "XLINE": 1,
+        "SPLINE": 2,
+        "ELLIPSE": 1,
+        "REGION": 2,
+        "ATTDEF": 2,
+        "RAY": 1,
+        "CIRCLE": 8,
+        "HATCH": 1,
+        "WIPEOUT": 2,
+        "3DFACE": 2,
+        "3DSOLID": 1,
+        "DIMENSION": 9,
+        "ARC_DIMENSION": 1,
+        "SOLID": 1,
+        "TOLERANCE": 1,
+        "ACAD_TABLE": 1,
+        "MULTILEADER": 1,
+        "MLINE": 1,
+        "LIGHT": 1
+      }
+    },
+    "example_r14": {
+      "source_bytes": 439875,
+      "dxf_bytes": 1043031,
+      "convert_secs": 0.3,
+      "entities": 68,
+      "points": 3846,
+      "links": 3736,
+      "skipped": {
+        "XLINE": 1,
+        "SPLINE": 2,
+        "ELLIPSE": 1,
+        "REGION": 2,
+        "ATTDEF": 2,
+        "RAY": 1,
+        "CIRCLE": 8,
+        "HATCH": 1,
+        "WIPEOUT": 2,
+        "3DFACE": 2,
+        "3DSOLID": 1,
+        "DIMENSION": 9,
+        "ARC_DIMENSION": 1,
+        "SOLID": 1,
+        "TOLERANCE": 1,
+        "ACAD_TABLE": 1,
+        "MULTILEADER": 1,
+        "MLINE": 1,
+        "LIGHT": 1
+      }
+    }
+  },
+  "e2e": {
+    "drawing_id": "07cf015e-1c0b-4da3-940e-c7b6ad7875d1",
+    "secs": 4.8,
+    "points": 3846,
+    "links": 3736
+  },
+  "fails": [],
+  "warns": []
+}
